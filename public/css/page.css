@@ -1,0 +1,24 @@
+.navbar {
+  background-color: black;
+  color: white;
+
+  /* Source: https://www.w3schools.com/howto/howto_css_glowing_text.asp */
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4285F4, 0 0 40px #4285F4, 0 0 50px #4285F4, 0 0 60px #4285F4, 0 0 70px #4285F4;
+}
+
+a.navbar-brand {
+  color: white;
+  text-decoration: none;
+  /* Source: https://www.w3schools.com/howto/howto_css_glowing_text.asp */
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+a.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+a.add-movie {
+  color: white;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #4285F4, 0 0 40px #4285F4, 0 0 50px #4285F4, 0 0 60px #4285F4, 0 0 70px #4285F4;
+}

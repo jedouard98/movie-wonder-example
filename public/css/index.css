@@ -1,0 +1,21 @@
+body {
+  background-image: url("/assets/homepage-background.jpg");
+  background-size: cover;
+}
+
+#homepage-title {
+  color: red;
+
+  /* Source: https://www.w3schools.com/howto/howto_css_glowing_text.asp */
+  text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+
+#sign-in {
+  background-color: #4285F4;
+  color: white;
+}
+
+.homepage-content {
+  font-size: 15%;
+  color: white;
+}
