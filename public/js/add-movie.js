@@ -15,7 +15,7 @@ window.onload = (event) => {
 // Configure Firebase storage through the console first, and get this information via profect configuration.
 function sendMovieInfoToDatabase() {
   var config = {
-    apiKey: "AIzaSyDhR2l262EfycRNxV9ERp6qfUAr6Hd1VTw",
+    apiKey: "",
     authDomain: "movie-finder-example.firebaseapp.com",
     // For databases not in the us-central1 location, databaseURL will be of the
     // form https://[databaseName].[region].firebasedatabase.app.
