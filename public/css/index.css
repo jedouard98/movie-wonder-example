@@ -1,4 +1,5 @@
 body {
+  /* Stock image */
   background-image: url("/assets/homepage-background.jpg");
   background-size: cover;
 }
