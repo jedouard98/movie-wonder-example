@@ -14,7 +14,13 @@ firebase init hosting
 
 ```
 
-This then gives a series of defaults that are okay for the first use of a simple firebase project. This guide then gives instructions on how to deploy the packages live so that you can see it ono the web. Beware of browser caching -- this prevented me from seeing changes that I was making to the site before I realized this was happening. Either be sure to refresh your browser cache (pressing SHIFT while clicking refresh on a mac works), disable browser caching, or for easier development, use an emulator: 
+This then gives a series of defaults that are okay for the first use of a simple firebase project. This guide then gives instructions on how to deploy the packages live so that you can see it ono the web.
+
+```bash
+firebase deploy --only hosting
+```
+
+Beware of browser caching -- this prevented me from seeing changes that I was making to the site before I realized this was happening. Either be sure to refresh your browser cache (pressing SHIFT while clicking refresh on a mac works), disable browser caching, or for easier development, use an emulator: 
 
 
 ```bash
